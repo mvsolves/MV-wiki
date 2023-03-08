@@ -1,0 +1,10 @@
+# Selection
+		ggVG					(Select all text)
+		vG						(Select from current line down to end of file)
+		V							(Select whole line)
+		v/<any-word>	(Select from current line to the next instance of <any-word>)
+		ya <'{','('etc>(Yank the given <'{','('> including the <'{','('>)
+		va <'{','('etc>(Select the given <'{','('> including the <'{','('>)
+		viw						(Selects current word, no matter position the cursor is at in word)
+		f<char>				(Looks for <char> at current cursor and forward (use ',' and '; to move'))
+		F<char>				(Looks for <char> at current cursor and backward (use ',' and '; to move'))
